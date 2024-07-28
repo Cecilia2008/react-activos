@@ -1,0 +1,15 @@
+-- CreateTable
+CREATE TABLE "task" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "nombre" TEXT NOT NULL,
+    "descripcion" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- CreateTable
+CREATE TABLE "categorias" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "nombre" TEXT NOT NULL,
+    "descripcion" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
